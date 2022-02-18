@@ -1,5 +1,7 @@
 package day_2;
 
+import day3.exception.DivByZeroException;
+
 public class Calculator {
     public static void main(String[] args) {
         //Task 1. Implement a simple calculator with 4 operations.
@@ -16,8 +18,15 @@ public class Calculator {
         System.out.println("a / b = " + divide(a,b));
     }
 
-    private static double divide(double a, double b) {
+    public static double divide(double a, double b) {
+        if(b==0) try {
+            throw new DivByZeroException("error");
+        } catch (DivByZeroException e) {
+            e.printStackTrace();
+        }
+
         return a/b;
+
     }
 
     private static double multiply(double a, double b) {
