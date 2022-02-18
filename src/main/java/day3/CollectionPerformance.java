@@ -12,20 +12,14 @@ public class CollectionPerformance {
 
         arrayList = generateAdditional(arrayList);
         linkedList = generateAdditional(linkedList);
-
-
         System.out.println("");
         System.out.println("arrayList:" + checkGet(arrayList));
         System.out.println("linkedList:" + checkGet(linkedList));
-
         System.out.println("");
         System.out.println("arrayList:" + checkIn(arrayList));
         System.out.println("linkedList:" + checkIn(linkedList));
 
     }
-
-
-
     private static List<String> generateAdditional(List<String> list) {
         for(int i = 0; i < 10; i++){
             list.addAll(list);
