@@ -23,8 +23,7 @@ public class CollectionPerformance {
     private static List<String> generateAdditional(List<String> list) {
         for(int i = 0; i < 10; i++){
             list.addAll(list);
-        }
-        return list;
+        }return list;
     }
 
     private static long checkGet(List<String> arrayList) {
@@ -38,14 +37,18 @@ public class CollectionPerformance {
     }
 
     private static long checkIn(List<String> list) {
+       
         long start = new Date().getTime();
+       
         int size = list.size();
 
         for(int i = 0; i < 1000; i++) {
             int randIndex = new Random().nextInt(size);
             list.set(randIndex, "hi");
-        }
-        return new Date().getTime() - start;
+            
+        }return new Date().getTime() - start;
+   
+    
     }
 
 }
