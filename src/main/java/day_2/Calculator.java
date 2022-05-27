@@ -29,15 +29,17 @@ public class Calculator {
 
     }
 
-    private static double multiply(double a, double b) {
+    public static double multiply(double a, double b) {
         return a*b;
     }
 
-    private static double minus(double a, double b) {
+    public static double minus(double a, double b) {
         return a-b;
     }
 
-    private static double add(double a, double b) {
+    public static double add(double a, double b) {
         return a+b;
     }
+
+
 }
