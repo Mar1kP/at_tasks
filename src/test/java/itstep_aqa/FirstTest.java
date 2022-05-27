@@ -18,22 +18,22 @@ public class FirstTest {
 
     }
 
-    //divide
+    // divide
     @Test
     void divideTest(){
         Assert.assertEquals(Calculator.divide(1, 1), 1d, "invalid dividing operation");
     }
-    //add
+    // add
     @Test(dataProvider = "addingDataProvider")
     void addTest(Double a, Double b, Double expectedResult){
         Assert.assertEquals(Optional.of(Calculator.add(a, b)), expectedResult, "invalid adding operation");
     }
-    //multiply
+    // multiply
     @Test
     void mulTest(){
         Assert.assertEquals(Calculator.multiply(1, 1), 1d, "invalid multiplying operation");
     }
-    //minus
+    // minus
     @Test
     void subTest(){
         Assert.assertEquals(Calculator.minus(1, 1), 0d, "invalid subtracting operation");
