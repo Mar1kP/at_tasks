@@ -1,4 +1,4 @@
-package itstep_aqa;
+package itstep_aqa.unit;
 
 import day_2.Calculator;
 import org.testng.Assert;
@@ -12,8 +12,11 @@ public class FirstTest {
     @DataProvider
     public static Object[][] addingDataProvider() {
 
-        Object[][] parametr = new Object[1][3];
-        parametr[0][0] = 11;  parametr[0][1] = 22;  parametr[0][2] = 33;
+        Object[][] parametr = new Object[4][3];
+        parametr[0][0] = 4.0;  parametr[0][1] = 5.0;  parametr[0][2] = 3.0;
+        parametr[1][0] = 5.0;  parametr[1][1] = 6.0;  parametr[1][2] = 9.0;
+        parametr[2][0] = 4.0;  parametr[2][1] = -4.0;  parametr[2][2] = 0.0;
+        parametr[3][0] = 1.0;  parametr[3][1] = 2.0;  parametr[3][2] = 2.0;
         return parametr;
 
     }
