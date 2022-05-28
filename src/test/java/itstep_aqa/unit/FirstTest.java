@@ -1,6 +1,6 @@
 package itstep_aqa.unit;
 
-import day_2.Calculator;
+import day2.Calculator;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

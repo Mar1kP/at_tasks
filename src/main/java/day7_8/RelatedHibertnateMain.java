@@ -1,6 +1,6 @@
-package day7;
-import day7.model.RelatedDetails;
-import day7.model.RelatedEmployees;
+package day7_8;
+import day7_8.model.RelatedDetails;
+import day7_8.model.RelatedEmployees;
 import org.hibernate.Session;
 
 

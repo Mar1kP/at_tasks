@@ -1,4 +1,4 @@
-package day_2;
+package day2;
 
 import day3.exception.DivByZeroException;
 

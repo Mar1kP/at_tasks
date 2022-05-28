@@ -1,4 +1,4 @@
-package day_2;
+package day2;
 
 public class StringProcessor {
     public static void main(String[] args) {

@@ -1,9 +1,9 @@
-package day7;
+package day7_8;
 
-import day7.model.Employees;
-import day7.model.Office;
-import day7.model.RelatedDetails;
-import day7.model.RelatedEmployees;
+import day7_8.model.Employees;
+import day7_8.model.Office;
+import day7_8.model.RelatedDetails;
+import day7_8.model.RelatedEmployees;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;

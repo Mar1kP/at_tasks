@@ -1,8 +1,7 @@
-package day7.model;
+package day7_8.model;
 
 import javax.persistence.*;
-import java.util.Date;
-import java.util.Set;
+
 public class RelatedEmployees {
     @Id
     //CREATE TABLE `aqa_it_step_4at`.`relatedEmployees` (

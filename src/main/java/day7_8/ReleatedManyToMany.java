@@ -1,10 +1,7 @@
-package day7;
-import day7.model.Employees;
-import day7.model.Office;
+package day7_8;
+import day7_8.model.Employees;
+import day7_8.model.Office;
 import org.hibernate.Session;
-
-import java.util.HashSet;
-import java.util.Set;
 
 public class ReleatedManyToMany {
     public static void main(String[] args) {

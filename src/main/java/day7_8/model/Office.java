@@ -1,4 +1,4 @@
-package day7.model;
+package day7_8.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

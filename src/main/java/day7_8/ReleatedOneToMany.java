@@ -1,7 +1,7 @@
-package day7;
+package day7_8;
 
-import day7.model.Office;
-import day7.model.RelatedEmployees;
+import day7_8.model.Office;
+import day7_8.model.RelatedEmployees;
 import org.hibernate.Session;
 
 public class ReleatedOneToMany {
